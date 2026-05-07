@@ -13,8 +13,8 @@ ScratchBit is a powerful module for Scratch projects that enables you to save an
 - 🚧 Limitations
 - 🤔 FAQ (Frequently Asked Questions)
 - ⚠️ Common Issues/Troubleshooting
+- 🤝 Credits
 - 📄 License
-- Behind The Scenes
 
 ## 📦 Overview
 ScratchBit uses color detection to turn each pixel in a selected area into a hex color code, and compiles the values into a compressed save code using Run-Length Encoding (RLE). This code can be pasted into any other project with the module, which will then render the image using Scratch's pen extension.
@@ -130,7 +130,7 @@ Not at all. ScratchBit is extremely easy to install (taking less than 5 minutes)
 #### A button or object is missing
 - Ensure that you copied over all of the assets needed for the module. This includes 6 sprites, which all begin with the string "ScratchBit".
 #### The saving process is extremely slow
-- This is likely because the scripts aren't set to run without screen refresh. Check to make sure the 3 custom blocks inside the "ScratchBit Color Detector" sprite have the `Run without screen refresh` setting enabled.
+- This is likely because the scripts aren't set to "run without screen refresh". Check to make sure the 3 custom blocks inside the "ScratchBit Color Detector" sprite have the `Run without screen refresh` setting enabled.
 - Alternatively, this might be because you are trying to save a complex image. Sadly, this is just a limitation of Scratch. Running the project on TurboWarp might increase performance marginally.
 #### It lags while saving
 - Since this is a data-intensive process, you might experience lag or freezing during the saving process. This usually resolves itself once the saving process is complete.
@@ -140,14 +140,19 @@ Not at all. ScratchBit is extremely easy to install (taking less than 5 minutes)
 This can be caused by a couple of issues. Some common ones are:
 - You have a sprite blocking the drawing. Since the loading script uses the pen extension, sprites can cover up the image.
 - The `opacity` parameter is set to 0, or you are using a code where opacity is set to 0.
-- `frame_x_offset` or `frame_y_offset` are set such that the image is drawn off-screen
+- `frame_x_offset` or `frame_y_offset` is set such that the image is drawn off-screen
 #### The UI isn't opening
 - Check to make sure you have an action that is calling the `ScratchBit: start` broadcast
 - Make sure that the ScratchBit sprites are layered above other sprites
 #### The whole thing isn't working
 - That would suggest that the code was changed or corrupted somehow. Try performing a fresh install of the ScratchBit sprites.
 
-**If you encounter any issues or bugs not mentioned here, open an issue on GitHub or contact us directly.**
+**If you encounter any issues or bugs not mentioned here, open an issue on GitHub or [contact us directly](https://leotimechannel.wixsite.com/menu#contact).**
+
+## 🤝 Credits
+- Code: Mainly developed by me, color detection uses @griffpatch's code
+- Art and logos: All me!
+- Documentation: All me!
 
 ## 📄 License
 This project is licensed under the MIT License.
