@@ -6,7 +6,7 @@ ScratchBit is a powerful module for Scratch projects that enables you to save an
 ## Table of Contents
 - 📦 [Overview](https://github.com/leotimechannelorg/ScratchBit?tab=readme-ov-file#-overview)
 - ⚡ [Features](https://github.com/leotimechannelorg/ScratchBit?tab=readme-ov-file#-features)
-- 💻 [How to Install[(https://github.com/leotimechannelorg/ScratchBit?tab=readme-ov-file#-how-to-install)
+- 💻 [How to Install](https://github.com/leotimechannelorg/ScratchBit?tab=readme-ov-file#-how-to-install)
 - 🎨 [Developer Help/Customization](https://github.com/leotimechannelorg/ScratchBit?tab=readme-ov-file#-developer-helpcustomization)
 - 🛠️ [Software Updates/Fixes](https://github.com/leotimechannelorg/ScratchBit?tab=readme-ov-file#-software-updatesfixes)
 - ⌨️ [How to Use](https://github.com/leotimechannelorg/ScratchBit?tab=readme-ov-file#-how-to-use)
