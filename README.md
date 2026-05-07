@@ -4,17 +4,17 @@ ScratchBit is a powerful module for Scratch projects that enables you to save an
 <img width="250" height="250" alt="ScratchBit Logo" src="https://github.com/user-attachments/assets/5074033b-66c1-4d5a-9841-edd8ed0d9661" />
 
 ## Table of Contents
-- 📦 Overview
-- ⚡ Features
-- 💻 How to Install
-- 🎨 Developer Help/Customization
-- 🛠️ Software Updates/Fixes
-- ⌨️ How to Use
-- 🚧 Limitations
-- 🤔 FAQ (Frequently Asked Questions)
-- ⚠️ Common Issues/Troubleshooting
-- 🤝 Credits
-- 📄 License
+- 📦 [Overview](https://github.com/leotimechannelorg/ScratchBit?tab=readme-ov-file#-overview)
+- ⚡ [Features](https://github.com/leotimechannelorg/ScratchBit?tab=readme-ov-file#-features)
+- 💻 [How to Install[(https://github.com/leotimechannelorg/ScratchBit?tab=readme-ov-file#-how-to-install)
+- 🎨 [Developer Help/Customization](https://github.com/leotimechannelorg/ScratchBit?tab=readme-ov-file#-developer-helpcustomization)
+- 🛠️ [Software Updates/Fixes](https://github.com/leotimechannelorg/ScratchBit?tab=readme-ov-file#-software-updatesfixes)
+- ⌨️ [How to Use](https://github.com/leotimechannelorg/ScratchBit?tab=readme-ov-file#-how-to-use)
+- 🚧 [Limitations](https://github.com/leotimechannelorg/ScratchBit?tab=readme-ov-file#-limitations)
+- 🤔 [FAQ (Frequently Asked Questions)](https://github.com/leotimechannelorg/ScratchBit?tab=readme-ov-file#-frequently-asked-questions-faq)
+- ⚠️ [Common Issues/Troubleshooting](https://github.com/leotimechannelorg/ScratchBit?tab=readme-ov-file#%EF%B8%8F-common-issuestroubleshooting)
+- 🤝 [Credits](https://github.com/leotimechannelorg/ScratchBit?tab=readme-ov-file#-credits)
+- 📄 [License](https://github.com/leotimechannelorg/ScratchBit?tab=readme-ov-file#-license)
 
 ## 📦 Overview
 ScratchBit uses color detection to turn each pixel in a selected area into a hex color code, and compiles the values into a compressed save code using Run-Length Encoding (RLE). This code can be pasted into any other project with the module, which will then render the image using Scratch's pen extension.
