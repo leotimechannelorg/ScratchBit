@@ -40,15 +40,12 @@ Remix this starter project with the necessary sprites and scripts, or download t
 3. In your project, drag these 6 sprites out of the backpack.
    
   <img width="577" height="268" alt="Screenshot 2026-05-05 at 13 28 48" src="https://github.com/user-attachments/assets/ae56405d-d4b2-420e-90a9-b702bc2374c5" /> <br>
-
 Finally, you will need to assign this script to an action, such as a key pressed or button clicked. This opens the ScratchBit UI.
 
-<img width="264" height="58" alt="block_5_3_2026-10_09_56 PM" src="https://github.com/user-attachments/assets/e6de2a51-5ce6-4a1f-ac49-720b699a96b0" /> <br>
-
+<img width="320" height="108" alt="block_5_8_2026-1_45_57 PM" src="https://github.com/user-attachments/assets/1e52be71-bb27-4049-8791-f87c93cfc6ca" /> <br>
 The scan will capture everything on the screen, so remember to hide any sprites you don't want visible during the scan using this script:
 
-<img width="717" height="100" alt="Screenshot 2026-05-03 at 22 18 19" src="https://github.com/user-attachments/assets/16e7c29a-0775-42bf-8d41-b3578fe5cc84" /> <br>
-
+<img width="311" height="226" alt="block_5_8_2026-1_50_45 PM" src="https://github.com/user-attachments/assets/5e31332a-dedd-4642-8be6-053e94797c8e" /> <br>
 For advanced features such as adjusting frame size, opacity, and excluding colors, read the next section.
 
 ## 🎨 Developer Help/Customization
@@ -68,7 +65,10 @@ These parameters control what users see when they load a code.
 - `opacity`: Controls the opacity upon loading (this overrides any saved opacity data). If left blank, it will default to 100.
 - `exclude_color`: Lets you exclude a specific color from the scan (use HEX values). Works similarly to a chroma key.
 ### Other customization options
-- Call save or load menus directly: You can set your code save and load menus directly (without using the ScratchBit homepage) by calling both the `ScratchBit: start` and `ScratchBit: save menu`/`ScratchBit: load menu` broadcasts.
+- Call save or load menus directly: You can set your code save and load menus directly (without using the ScratchBit homepage) with these scripts:
+
+  <img width="250" height="86" alt="block_5_8_2026-1_46_11 PM" src="https://github.com/user-attachments/assets/102b1c8c-2eb1-417e-9684-b8e828db2d14" /> <br>
+  <img width="248" height="86" alt="block_5_8_2026-1_46_22 PM" src="https://github.com/user-attachments/assets/3ed74799-e884-4234-8863-69c74557b6f3" />
 
 ## 🛠️ Software Updates/Fixes
 Every so often, ScratchBit will receive an update or hotfix. While these normally won't break your code, we still recommend updating the module. The best way to stay up to date is to "Watch" the repository on GitHub, so you'll receive an email notification whenever a new version is released. Additionally, every update will include a section that instructs existing users on how they can update their code without reinstalling the entire module.
@@ -86,6 +86,8 @@ To save a code, start by clicking the `Save Code` button. This opens a menu wher
 To load a code, start by clicking the `Load Code` button. This opens a text box where you can paste your code. Once the code is pasted, the image should generate in the next few seconds.
 ### Exiting a menu
 Use the `←` button to return to the previous menu. Continue clicking the `←` button to close the ScratchBit UI.
+### Erasing loaded images
+To erase all loaded images, click the `Erase Images` button. As of right now, there is no way to remove a specific image that was loaded.
 
 ## 🤔 Frequently Asked Questions (FAQ)
 #### What exactly is this?
@@ -102,6 +104,8 @@ No, ScratchBit is not an extension. It is a collection of sprites that works as 
 Yes, using the video sensing extension, you can technically take a picture of yourself and save it to your computer using ScratchBit. Remember to be careful when sharing personal information, such as pictures, online.
 #### Can I turn save codes into actual images on my computer (like .png, .jpg, etc.)?
 Yes, you can save a "website-friendly" code and run it through an online HEX-to-PNG converter (like [this one](https://onlinepngtools.com/convert-hex-to-png)) to turn it into an image file.
+#### How do I remove one image that I loaded without removing all loaded images?
+As of right now, there is no way to do this (this is mainly a Scratch limitation)
 #### My code is longer than the Scratch comment character limit (500 characters). How can I share it?
 Instead of pasting the entire code into a comment, create a forum post with the code on this topic and paste the link in the comment.
 #### How should I give credit when using the module in my project?
