@@ -46,6 +46,8 @@ Finally, you will need to assign this script to an action, such as a key pressed
 The scan will capture everything on the screen, so remember to hide any sprites you don't want visible during the scan using this script:
 
 <img width="311" height="226" alt="block_5_8_2026-1_50_45 PM" src="https://github.com/user-attachments/assets/5e31332a-dedd-4642-8be6-053e94797c8e" /> <br>
+
+*The list that displays the code may need to be resized upon backpacking.
 For advanced features such as adjusting frame size, opacity, and excluding colors, read the next section.
 
 ## 🎨 Developer Help/Customization
@@ -98,6 +100,8 @@ Since images contain a lot of data, the codes must be long to accommodate all th
 ScratchBit can be used to save images, pen drawings, and anything else visual in your project as a save code. But the best part is that save codes can be loaded into ANY project with the module, not just your project.
 #### How does it work?
 ScratchBit works by using color detection to encode each pixel in an image into a HEX color value, when are then compiled and compressed into a save code. The loader uses the pen extension to render images.
+#### What is the difference between a "scratch-friendly" code and a "website-friendly" code?
+
 #### Is ScratchBit an extension?
 No, ScratchBit is not an extension. It is a collection of sprites that works as a module.
 #### Can I save a picture of myself?
