@@ -101,7 +101,7 @@ ScratchBit can be used to save images, pen drawings, and anything else visual in
 #### How does it work?
 ScratchBit works by using color detection to encode each pixel in an image into a HEX color value, when are then compiled and compressed into a save code. The loader uses the pen extension to render images.
 #### What is the difference between a "scratch-friendly" code and a "website-friendly" code?
-
+Put simply, the Scratch-friendly code is meant for use on Scratch, while the website-friendly code is meant to be used in online HEX-to-PNG converters. The Scratch code uses RLE (Run-Length Encoding) to compress the code so it can be easily shared; however, this format is not accepted by HEX-to-PNG converters, which is why the uncompressed website-friendly code is available. ***Only the Scratch-friendly code can be loaded into projects.**
 #### Is ScratchBit an extension?
 No, ScratchBit is not an extension. It is a collection of sprites that works as a module.
 #### Can I save a picture of myself?
