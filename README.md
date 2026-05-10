@@ -25,7 +25,7 @@ ScratchBit enables you to turn images, pen drawings, and anything else visual in
 ### 🔄 Compatibility with other projects
 Save codes can be loaded into any other project with the module, meaning you can save a drawing in one project and load it into a completely different project!
 ### 🔡 Scratch-optimized and web-optimized codes
-ScratchBit can generate two types of codes: a compressed code optimized for Scratch, and an uncompressed code that is compatible with most online HEX-to-PNG converters. (Web-optimized codes can get extremely long, depending on how large the frame is.) Learn more about the two types of codes here.
+ScratchBit can generate two types of codes: a compressed code optimized for Scratch, and an uncompressed code that is compatible with most online HEX-to-PNG converters. (Web-optimized codes can get extremely long, depending on how large the frame is.) Learn more about the two types of codes [here](https://github.com/leotimechannelorg/ScratchBit#what-is-the-difference-between-a-scratch-friendly-code-and-a-website-friendly-code).
 
 ## 💻 How to install
 ScratchBit's module is remarkably easy to install, taking under 5 minutes from start to finish! Below are instructions for how to install the module into your project:
@@ -73,7 +73,7 @@ These parameters control what users see when they load a code.
   <img width="248" height="86" alt="block_5_8_2026-1_46_22 PM" src="https://github.com/user-attachments/assets/3ed74799-e884-4234-8863-69c74557b6f3" />
 
 ## 🛠️ Software Updates/Fixes
-Every so often, ScratchBit will receive an update or hotfix. While these normally won't break your code, we still recommend updating the module. The best way to stay up to date is to "Watch" the repository on GitHub, so you'll receive an email notification whenever a new version is released. Additionally, every update will include a section that instructs existing users on how they can update their code without reinstalling the entire module.
+Every so often, ScratchBit will receive an update or hotfix. While these normally won't break your code, we still recommend updating the module. The best way to stay up to date is to "Watch" the repository on GitHub, so you'll receive an email notification whenever a new version is released. Additionally, every update will include a section that guides existing users on how to update their code without reinstalling the entire module.
 
 ## 🚧 Limitations
 - **Resolution and image quality:** While ScratchBit preserves the original resolution of the image, it does not preserve anti-aliasing, which can cause some features (like text) to appear blurry or pixelated. Additionally, some colors may look off (this is just a limitation of Scratch's color detection)
@@ -115,7 +115,7 @@ Instead of pasting the entire code into a comment, create a forum post with the 
 #### How should I give credit when using the module in my project?
 If you remixed the starter project, then Scratch will do this for you. However, if you used the backpack to move over sprites, remember to add "Credit to @leotimechannelorg" to the Notes and Credits section.
 #### Does ScratchBit support transparency?
-Sort of. While saving, developers can choose to apply a global opacity value that affects the entire image, and the same can be done load-side. Additionally, the `exclude_color` parameter can be used to remove unwanted colors from a save code.
+Sort of. While saving, developers can choose to apply a global opacity value that affects the entire image, and the same can be done on the load side. Additionally, the `exclude_color` parameter can be used to remove unwanted colors from a save code.
 #### When ScratchBit receives an update, will old save codes still work?
 Yes, old save codes will likely still work with new versions of ScratchBit, unless the save code structure itself is changed.
 #### Does ScratchBit make my project laggy?
