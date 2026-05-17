@@ -47,7 +47,7 @@ The scan will capture everything on the screen, so remember to hide any sprites 
 
 <img width="311" height="226" alt="block_5_8_2026-1_50_45 PM" src="https://github.com/user-attachments/assets/5e31332a-dedd-4642-8be6-053e94797c8e" /> <br>
 
-*The list that displays the code may need to be resized upon backpacking.
+*The list that displays the code may need to be resized upon backpacking.\
 For advanced features such as adjusting frame size, opacity, and excluding colors, read the next section.
 
 ## 🎨 Developer Help/Customization
@@ -58,14 +58,14 @@ These parameters control what gets saved in the code.
 - `framestart_x` and `frameend_x`: These parameters control the width (x-axis) of the scan. The start of the frame should always have a lower value than the end of the frame.
 - `framestart_y` and `frameend_y`: These parameters control the height (y-axis) of the scan. The start of the frame should always have a lower value than the end of the frame.
 - `opacity`: Controls the opacity saved for the entire scan (0 is no color, 100 is original colors). If left blank, it will default to 100.
-- `exclude_color`: Lets you exclude a specific color from the scan (use HEX values). Works similar to a chroma key.
+- `exclude_color`: Lets you exclude a specific color from the scan (use HEX values). Works similarly to a chroma key.
 - `code_type`: Tells the function which type of code to generate. This is already set up to work with ScratchBit's UI, so you likely won't need to change it.
 #### Load-Side
 These parameters control what users see when they load a code.
 - `frame_x_offset`: This offsets the image to the right or left upon loading.
 - `frame_y_offset`: This offsets the image up or down upon loading.
 - `opacity`: Controls the opacity upon loading (this overrides any saved opacity data). If left blank, it will default to 100.
-- `exclude_color`: Lets you exclude a specific color from the scan (use HEX values). Works similarly to a chroma key.
+- `exclude_color`: Lets you exclude a specific color from the loaded image (use HEX values). Works similarly to a chroma key.
 ### Other customization options
 - Call save or load menus directly: You can set your code save and load menus directly (without using the ScratchBit homepage) with these scripts:
 
