@@ -35,7 +35,7 @@ Remix this starter project with the necessary sprites and scripts, or download t
 
 ### Adding to an existing project
 1. Open [this project](https://scratch.mit.edu/projects/1263641594/) and click `See Inside`.
-2. Open the "Backpack" window at the bottom of the screen, then drag the 6 sprites that start with "ScratchBit" into the backpack window.
+2. Open the "Backpack" window at the bottom of the screen, then drag the 6 sprites that start with "ScratchBit" into the backpack window.\
   <img width="821" height="185" alt="Screenshot 2026-05-03 at 22 02 49" src="https://github.com/user-attachments/assets/f9dd0ec7-452f-4a24-bc2b-8da198e50078" /> <br>
 3. In your project, drag these 6 sprites out of the backpack.
    
