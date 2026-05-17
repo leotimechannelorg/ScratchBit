@@ -31,7 +31,7 @@ ScratchBit can generate two types of codes: a compressed code optimized for Scra
 ScratchBit's module is remarkably easy to install, taking under 5 minutes from start to finish! Below are instructions for how to install the module into your project:
 
 ### Starting with a new project
-Remix this starter project with the necessary sprites and scripts, or download this file. You can skip the first 3 steps in the next section.
+Remix this [starter project](https://scratch.mit.edu/projects/1317379249/) with the necessary sprites and scripts, or download this file. You can skip the first 3 steps in the next section.
 
 ### Adding to an existing project
 1. Open [this project](https://scratch.mit.edu/projects/1263641594/) and click `See Inside`.
