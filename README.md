@@ -37,7 +37,7 @@ Remix this [starter project](https://scratch.mit.edu/projects/1317379249/) with 
 1. Open [this project](https://scratch.mit.edu/projects/1263641594/) and click `See Inside`.
 2. Open the "Backpack" window at the bottom of the screen, then drag the 7 sprites that start with "ScratchBit" into the backpack window.\
   <img width="657" height="146" alt="Screenshot 2026-05-08 at 15 17 31" src="https://github.com/user-attachments/assets/6dbb9cf0-05cb-4e2f-a208-cc9f5519f47f" /> <br>
-3. In your project, drag these 6 sprites out of the backpack.
+3. In your project, drag these 7 sprites out of the backpack.
    
    <img width="647" height="260" alt="Screenshot 2026-05-08 at 15 23 05" src="https://github.com/user-attachments/assets/f2a15186-baf8-4db4-93a4-cf2164b3d874" /> <br>
 
@@ -137,7 +137,7 @@ Not at all. ScratchBit is extremely easy to install (taking less than 5 minutes)
 - While the system is reasonably good at calculating estimated time left, it can often overestimate the amount of time it will take, especially on less complex images and images with asymmetrical distribution of complexity. The storage progress bar is often more accurate at indicating how far along you are in the saving process.
 ### Common issues for developers
 #### A button or object is missing
-- Ensure that you copied over all of the assets needed for the module. This includes 6 sprites, which all begin with the string "ScratchBit".
+- Ensure that you copied over all of the assets needed for the module. This includes 7 sprites, which all begin with the string "ScratchBit".
 #### The saving process is extremely slow
 - This is likely because the scripts aren't set to "run without screen refresh". Check to make sure the 3 custom blocks inside the "ScratchBit Color Detector" sprite have the `Run without screen refresh` setting enabled.
 - Alternatively, this might be because you are trying to save a complex image. Sadly, this is just a limitation of Scratch. Running the project on TurboWarp might increase performance marginally.
