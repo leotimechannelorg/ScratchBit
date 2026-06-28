@@ -35,11 +35,12 @@ Remix this [starter project](https://scratch.mit.edu/projects/1317379249/) with 
 
 ### Adding to an existing project
 1. Open [this project](https://scratch.mit.edu/projects/1263641594/) and click `See Inside`.
-2. Open the "Backpack" window at the bottom of the screen, then drag the 6 sprites that start with "ScratchBit" into the backpack window.\
-  <img width="821" height="185" alt="Screenshot 2026-05-03 at 22 02 49" src="https://github.com/user-attachments/assets/f9dd0ec7-452f-4a24-bc2b-8da198e50078" /> <br>
+2. Open the "Backpack" window at the bottom of the screen, then drag the 7 sprites that start with "ScratchBit" into the backpack window.\
+  <img width="657" height="146" alt="Screenshot 2026-05-08 at 15 17 31" src="https://github.com/user-attachments/assets/6dbb9cf0-05cb-4e2f-a208-cc9f5519f47f" /> <br>
 3. In your project, drag these 6 sprites out of the backpack.
    
-  <img width="577" height="268" alt="Screenshot 2026-05-05 at 13 28 48" src="https://github.com/user-attachments/assets/ae56405d-d4b2-420e-90a9-b702bc2374c5" /> <br>
+   <img width="647" height="260" alt="Screenshot 2026-05-08 at 15 23 05" src="https://github.com/user-attachments/assets/f2a15186-baf8-4db4-93a4-cf2164b3d874" /> <br>
+
 Finally, you will need to assign this script to an action, such as a key pressed or button clicked. This opens the ScratchBit UI.
 
 <img width="320" height="108" alt="block_5_8_2026-1_45_57 PM" src="https://github.com/user-attachments/assets/1e52be71-bb27-4049-8791-f87c93cfc6ca" /> <br>
