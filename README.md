@@ -1,5 +1,5 @@
 # ScratchBit: Save and share images and pen drawings in Scratch!
-ScratchBit is a powerful module for Scratch projects that enables you to save and share images, pen drawings, and more, directly from Scratch projects. ScratchBit uses color detection to encode pixels into hex values, and combines the values into a save code. The ScratchBit module is extremely simple to install, and can save and load codes from any other project with the module.
+ScratchBit is a powerful module for Scratch projects that enables the user to save and share images, pen drawings, and more, directly from Scratch projects. ScratchBit uses color detection to encode pixels into hex values, and combines the values into a save code. The ScratchBit module is extremely simple to install, and can save and load codes from any other project with the module.
 
 <img width="250" height="250" alt="ScratchBit Logo" src="https://github.com/user-attachments/assets/5074033b-66c1-4d5a-9841-edd8ed0d9661" />
 
